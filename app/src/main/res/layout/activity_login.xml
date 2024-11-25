@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/kpu"/>
+    <TextView
+        android:id="@+id/tv_descapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsregular"
+        android:paddingTop="20dp"
+        android:text="Apps ini di gunakan oleh petugas KPU untuk mendata peserta pemilu"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_background"
+        android:orientation="vertical"
+        android:paddingVertical="30dp"
+        android:paddingHorizontal="40dp">
+
+        <TextView
+            android:id="@+id/tv_labelusername_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppinsregular"
+
+            android:text="Username"/>
+        <EditText
+            android:id="@+id/et_user_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="20dp"
+            android:padding="13dp"
+            android:background="@drawable/rounded_input"
+            android:inputType="text"
+            />
+
+        <TextView
+            android:id="@+id/tv_labelpass_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/poppinsregular"
+
+            android:text="Password"/>
+        <EditText
+            android:id="@+id/et_pass_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:layout_marginBottom="20dp"
+            android:padding="13dp"
+            android:background="@drawable/rounded_input"
+            android:inputType="textPassword"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@drawable/rounded_input"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/txt_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:fontFamily="@font/poppinsregular"
+
+            android:text="Belum punya akun? Daftar disini." />
+    </LinearLayout>
+
+</LinearLayout>
