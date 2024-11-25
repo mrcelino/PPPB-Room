@@ -7,7 +7,7 @@ import com.example.mynote.database.Note
 import com.example.kpumarcelino.databinding.ItemListBinding
 
 class PemilihAdapter(
-    private val listPemilih: List<Note>,
+    val listPemilih: List<Note>, // Ubah dari private ke val agar publik
     private val onDeleteClick: (Int) -> Unit,
     private val onEditClick: (Int) -> Unit,
     private val onViewClick: (Int) -> Unit
@@ -28,7 +28,6 @@ class PemilihAdapter(
                 txtAngka.text = (position + 1).toString()
                 txtNamapemilih.text = data.nama_pemilih
 
-                // Setup listener untuk setiap tombol
                 imgEdit.setOnClickListener { onEditClick(position) }
                 imgDelete.setOnClickListener { onDeleteClick(position) }
                 imgSee.setOnClickListener { onViewClick(position) }
@@ -57,3 +56,4 @@ class PemilihAdapter(
         )
     }
 }
+

@@ -16,7 +16,7 @@
             android:name=".LihatDataActivity"
             android:exported="false" />
         <activity
-            android:name=".Edit"
+            android:name=".EditActivity"
             android:exported="false" />
         <activity
             android:name=".TambahDataActivity"
