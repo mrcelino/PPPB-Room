@@ -3,7 +3,7 @@ package com.example.kpumarcelino
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mynote.database.Note
+import com.example.kpumarcelino.database.Note
 import com.example.kpumarcelino.databinding.ItemListBinding
 
 class PemilihAdapter(

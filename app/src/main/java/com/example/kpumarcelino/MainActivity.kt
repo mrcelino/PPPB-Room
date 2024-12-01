@@ -4,8 +4,8 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.mynote.database.NoteDao
-import com.example.mynote.database.NoteRoomDatabase
+import com.example.kpumarcelino.database.NoteDao
+import com.example.kpumarcelino.database.NoteRoomDatabase
 import com.example.kpumarcelino.databinding.ActivityMainBinding
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors

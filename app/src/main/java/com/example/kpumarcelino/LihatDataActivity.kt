@@ -5,8 +5,8 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import com.example.kpumarcelino.databinding.ActivityLihatDataBinding
-import com.example.mynote.database.NoteDao
-import com.example.mynote.database.NoteRoomDatabase
+import com.example.kpumarcelino.database.NoteDao
+import com.example.kpumarcelino.database.NoteRoomDatabase
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

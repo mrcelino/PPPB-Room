@@ -5,9 +5,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mynote.database.Note
-import com.example.mynote.database.NoteDao
-import com.example.mynote.database.NoteRoomDatabase
+import com.example.kpumarcelino.database.Note
+import com.example.kpumarcelino.database.NoteDao
+import com.example.kpumarcelino.database.NoteRoomDatabase
 import com.example.kpumarcelino.databinding.ActivityTambahDataBinding
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
