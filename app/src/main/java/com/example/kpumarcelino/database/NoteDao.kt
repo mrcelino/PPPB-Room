@@ -1,4 +1,4 @@
-package com.example.mynote.database
+package com.example.kpumarcelino.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
@@ -10,10 +10,8 @@ import androidx.room.Update
 import com.example.kpumarcelino.Pemilih
 import kotlinx.coroutines.flow.Flow
 
-//kueri untuk ngelola data dalam db
 @Dao
 interface NoteDao {
-    //kalau ada id yang yang sama , maka ga bakal dimasukkan ke dalam db
     @Insert(onConflict = OnConflictStrategy.IGNORE)
     fun insert(note: Note)
     @Update

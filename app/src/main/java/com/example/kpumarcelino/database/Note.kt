@@ -1,10 +1,11 @@
-package com.example.mynote.database
+package com.example.kpumarcelino.database
 
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-//tabel db
+
+
 @Entity(tableName = "note_table")
 data class Note(
     @PrimaryKey(autoGenerate = true)
